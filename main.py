@@ -10,7 +10,7 @@ import webbrowser
 
 app = Flask(__name__)
 
-API_KEY = "5b3ce3597851110001cf624855c64e325f2e4207b950406fb98609d9"
+API_KEY = "enter-your-API-token-here"
 API_URL = "https://api.openrouteservice.org/v2/isochrones/driving-car"
 
 def geocode_address(address):
